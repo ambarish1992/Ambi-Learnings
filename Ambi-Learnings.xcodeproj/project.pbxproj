@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		333F5A3B2C3645C8007487E7 /* CombineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F5A3A2C3645C8007487E7 /* CombineModel.swift */; };
+		333F5A3D2C36464A007487E7 /* CombineViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F5A3C2C36464A007487E7 /* CombineViewModel.swift */; };
+		333F5A3F2C364CA7007487E7 /* CombineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F5A3E2C364CA6007487E7 /* CombineView.swift */; };
+		33A6D8822C350F13000BA54B /* Ambi_LearningsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D8812C350F13000BA54B /* Ambi_LearningsApp.swift */; };
+		33A6D8842C350F13000BA54B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D8832C350F13000BA54B /* ContentView.swift */; };
+		33A6D8862C350F14000BA54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A6D8852C350F14000BA54B /* Assets.xcassets */; };
+		33A6D8892C350F14000BA54B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33A6D8882C350F14000BA54B /* Preview Assets.xcassets */; };
+		33A6D8932C350F14000BA54B /* Ambi_LearningsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D8922C350F14000BA54B /* Ambi_LearningsTests.swift */; };
+		33A6D89D2C350F14000BA54B /* Ambi_LearningsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D89C2C350F14000BA54B /* Ambi_LearningsUITests.swift */; };
+		33A6D89F2C350F14000BA54B /* Ambi_LearningsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D89E2C350F14000BA54B /* Ambi_LearningsUITestsLaunchTests.swift */; };
+		33A6D8AD2C350FF7000BA54B /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D8AC2C350FF7000BA54B /* EditProfile.swift */; };
+		33A6D8B02C353871000BA54B /* EnvironmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D8AF2C353871000BA54B /* EnvironmentModel.swift */; };
+		33A6D8B42C354E2E000BA54B /* EnvironmentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33A6D8B32C354E2E000BA54B /* EnvironmentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33A6D88F2C350F14000BA54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A6D8762C350F13000BA54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A6D87D2C350F13000BA54B;
+			remoteInfo = "Ambi-Learnings";
+		};
+		33A6D8992C350F14000BA54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33A6D8762C350F13000BA54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33A6D87D2C350F13000BA54B;
+			remoteInfo = "Ambi-Learnings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		333F5A3A2C3645C8007487E7 /* CombineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineModel.swift; sourceTree = "<group>"; };
+		333F5A3C2C36464A007487E7 /* CombineViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineViewModel.swift; sourceTree = "<group>"; };
+		333F5A3E2C364CA6007487E7 /* CombineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineView.swift; sourceTree = "<group>"; };
+		33A6D87E2C350F13000BA54B /* Ambi-Learnings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ambi-Learnings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A6D8812C350F13000BA54B /* Ambi_LearningsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambi_LearningsApp.swift; sourceTree = "<group>"; };
+		33A6D8832C350F13000BA54B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		33A6D8852C350F14000BA54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33A6D8882C350F14000BA54B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		33A6D88E2C350F14000BA54B /* Ambi-LearningsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambi-LearningsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A6D8922C350F14000BA54B /* Ambi_LearningsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambi_LearningsTests.swift; sourceTree = "<group>"; };
+		33A6D8982C350F14000BA54B /* Ambi-LearningsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ambi-LearningsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33A6D89C2C350F14000BA54B /* Ambi_LearningsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambi_LearningsUITests.swift; sourceTree = "<group>"; };
+		33A6D89E2C350F14000BA54B /* Ambi_LearningsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ambi_LearningsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		33A6D8AC2C350FF7000BA54B /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		33A6D8AF2C353871000BA54B /* EnvironmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentModel.swift; sourceTree = "<group>"; };
+		33A6D8B32C354E2E000BA54B /* EnvironmentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33A6D87B2C350F13000BA54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6D88B2C350F14000BA54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6D8952C350F14000BA54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333F5A392C36458B007487E7 /* Combine-API(MVVM) */ = {
+			isa = PBXGroup;
+			children = (
+				333F5A3A2C3645C8007487E7 /* CombineModel.swift */,
+				333F5A3C2C36464A007487E7 /* CombineViewModel.swift */,
+				333F5A3E2C364CA6007487E7 /* CombineView.swift */,
+			);
+			path = "Combine-API(MVVM)";
+			sourceTree = "<group>";
+		};
+		33A6D8752C350F13000BA54B = {
+			isa = PBXGroup;
+			children = (
+				33A6D8802C350F13000BA54B /* Ambi-Learnings */,
+				33A6D8912C350F14000BA54B /* Ambi-LearningsTests */,
+				33A6D89B2C350F14000BA54B /* Ambi-LearningsUITests */,
+				33A6D87F2C350F13000BA54B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33A6D87F2C350F13000BA54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D87E2C350F13000BA54B /* Ambi-Learnings.app */,
+				33A6D88E2C350F14000BA54B /* Ambi-LearningsTests.xctest */,
+				33A6D8982C350F14000BA54B /* Ambi-LearningsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33A6D8802C350F13000BA54B /* Ambi-Learnings */ = {
+			isa = PBXGroup;
+			children = (
+				333F5A392C36458B007487E7 /* Combine-API(MVVM) */,
+				33A6D8AB2C350FD2000BA54B /* Environment-Object */,
+				33A6D8852C350F14000BA54B /* Assets.xcassets */,
+				33A6D8872C350F14000BA54B /* Preview Content */,
+			);
+			path = "Ambi-Learnings";
+			sourceTree = "<group>";
+		};
+		33A6D8872C350F14000BA54B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D8882C350F14000BA54B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		33A6D8912C350F14000BA54B /* Ambi-LearningsTests */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D8922C350F14000BA54B /* Ambi_LearningsTests.swift */,
+			);
+			path = "Ambi-LearningsTests";
+			sourceTree = "<group>";
+		};
+		33A6D89B2C350F14000BA54B /* Ambi-LearningsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D89C2C350F14000BA54B /* Ambi_LearningsUITests.swift */,
+				33A6D89E2C350F14000BA54B /* Ambi_LearningsUITestsLaunchTests.swift */,
+			);
+			path = "Ambi-LearningsUITests";
+			sourceTree = "<group>";
+		};
+		33A6D8AB2C350FD2000BA54B /* Environment-Object */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D8B22C354E1B000BA54B /* ViewModel */,
+				33A6D8B12C35387B000BA54B /* Views */,
+				33A6D8AE2C35384E000BA54B /* Model */,
+			);
+			path = "Environment-Object";
+			sourceTree = "<group>";
+		};
+		33A6D8AE2C35384E000BA54B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D8AF2C353871000BA54B /* EnvironmentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		33A6D8B12C35387B000BA54B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D8812C350F13000BA54B /* Ambi_LearningsApp.swift */,
+				33A6D8AC2C350FF7000BA54B /* EditProfile.swift */,
+				33A6D8832C350F13000BA54B /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		33A6D8B22C354E1B000BA54B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33A6D8B32C354E2E000BA54B /* EnvironmentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33A6D87D2C350F13000BA54B /* Ambi-Learnings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6D8A22C350F14000BA54B /* Build configuration list for PBXNativeTarget "Ambi-Learnings" */;
+			buildPhases = (
+				33A6D87A2C350F13000BA54B /* Sources */,
+				33A6D87B2C350F13000BA54B /* Frameworks */,
+				33A6D87C2C350F13000BA54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ambi-Learnings";
+			productName = "Ambi-Learnings";
+			productReference = 33A6D87E2C350F13000BA54B /* Ambi-Learnings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33A6D88D2C350F14000BA54B /* Ambi-LearningsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6D8A52C350F14000BA54B /* Build configuration list for PBXNativeTarget "Ambi-LearningsTests" */;
+			buildPhases = (
+				33A6D88A2C350F14000BA54B /* Sources */,
+				33A6D88B2C350F14000BA54B /* Frameworks */,
+				33A6D88C2C350F14000BA54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A6D8902C350F14000BA54B /* PBXTargetDependency */,
+			);
+			name = "Ambi-LearningsTests";
+			productName = "Ambi-LearningsTests";
+			productReference = 33A6D88E2C350F14000BA54B /* Ambi-LearningsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33A6D8972C350F14000BA54B /* Ambi-LearningsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33A6D8A82C350F14000BA54B /* Build configuration list for PBXNativeTarget "Ambi-LearningsUITests" */;
+			buildPhases = (
+				33A6D8942C350F14000BA54B /* Sources */,
+				33A6D8952C350F14000BA54B /* Frameworks */,
+				33A6D8962C350F14000BA54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33A6D89A2C350F14000BA54B /* PBXTargetDependency */,
+			);
+			name = "Ambi-LearningsUITests";
+			productName = "Ambi-LearningsUITests";
+			productReference = 33A6D8982C350F14000BA54B /* Ambi-LearningsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33A6D8762C350F13000BA54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					33A6D87D2C350F13000BA54B = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					33A6D88D2C350F14000BA54B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 33A6D87D2C350F13000BA54B;
+					};
+					33A6D8972C350F14000BA54B = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 33A6D87D2C350F13000BA54B;
+					};
+				};
+			};
+			buildConfigurationList = 33A6D8792C350F13000BA54B /* Build configuration list for PBXProject "Ambi-Learnings" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33A6D8752C350F13000BA54B;
+			productRefGroup = 33A6D87F2C350F13000BA54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33A6D87D2C350F13000BA54B /* Ambi-Learnings */,
+				33A6D88D2C350F14000BA54B /* Ambi-LearningsTests */,
+				33A6D8972C350F14000BA54B /* Ambi-LearningsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33A6D87C2C350F13000BA54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A6D8892C350F14000BA54B /* Preview Assets.xcassets in Resources */,
+				33A6D8862C350F14000BA54B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6D88C2C350F14000BA54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6D8962C350F14000BA54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33A6D87A2C350F13000BA54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A6D8842C350F13000BA54B /* ContentView.swift in Sources */,
+				33A6D8822C350F13000BA54B /* Ambi_LearningsApp.swift in Sources */,
+				33A6D8AD2C350FF7000BA54B /* EditProfile.swift in Sources */,
+				333F5A3D2C36464A007487E7 /* CombineViewModel.swift in Sources */,
+				333F5A3F2C364CA7007487E7 /* CombineView.swift in Sources */,
+				333F5A3B2C3645C8007487E7 /* CombineModel.swift in Sources */,
+				33A6D8B42C354E2E000BA54B /* EnvironmentViewModel.swift in Sources */,
+				33A6D8B02C353871000BA54B /* EnvironmentModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6D88A2C350F14000BA54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A6D8932C350F14000BA54B /* Ambi_LearningsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33A6D8942C350F14000BA54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A6D89D2C350F14000BA54B /* Ambi_LearningsUITests.swift in Sources */,
+				33A6D89F2C350F14000BA54B /* Ambi_LearningsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33A6D8902C350F14000BA54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A6D87D2C350F13000BA54B /* Ambi-Learnings */;
+			targetProxy = 33A6D88F2C350F14000BA54B /* PBXContainerItemProxy */;
+		};
+		33A6D89A2C350F14000BA54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33A6D87D2C350F13000BA54B /* Ambi-Learnings */;
+			targetProxy = 33A6D8992C350F14000BA54B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		33A6D8A02C350F14000BA54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		33A6D8A12C350F14000BA54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A6D8A32C350F14000BA54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambi-Learnings/Preview Content\"";
+				DEVELOPMENT_TEAM = XXX797FCW8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambi-learnings.Ambi-Learnings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33A6D8A42C350F14000BA54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambi-Learnings/Preview Content\"";
+				DEVELOPMENT_TEAM = XXX797FCW8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambi-learnings.Ambi-Learnings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		33A6D8A62C350F14000BA54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXX797FCW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambi-learnings.Ambi-LearningsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambi-Learnings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ambi-Learnings";
+			};
+			name = Debug;
+		};
+		33A6D8A72C350F14000BA54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXX797FCW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambi-learnings.Ambi-LearningsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ambi-Learnings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ambi-Learnings";
+			};
+			name = Release;
+		};
+		33A6D8A92C350F14000BA54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXX797FCW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambi-learnings.Ambi-LearningsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ambi-Learnings";
+			};
+			name = Debug;
+		};
+		33A6D8AA2C350F14000BA54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XXX797FCW8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ambi-learnings.Ambi-LearningsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ambi-Learnings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33A6D8792C350F13000BA54B /* Build configuration list for PBXProject "Ambi-Learnings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6D8A02C350F14000BA54B /* Debug */,
+				33A6D8A12C350F14000BA54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A6D8A22C350F14000BA54B /* Build configuration list for PBXNativeTarget "Ambi-Learnings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6D8A32C350F14000BA54B /* Debug */,
+				33A6D8A42C350F14000BA54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A6D8A52C350F14000BA54B /* Build configuration list for PBXNativeTarget "Ambi-LearningsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6D8A62C350F14000BA54B /* Debug */,
+				33A6D8A72C350F14000BA54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33A6D8A82C350F14000BA54B /* Build configuration list for PBXNativeTarget "Ambi-LearningsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A6D8A92C350F14000BA54B /* Debug */,
+				33A6D8AA2C350F14000BA54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33A6D8762C350F13000BA54B /* Project object */;
+}
