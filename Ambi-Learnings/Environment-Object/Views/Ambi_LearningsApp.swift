@@ -8,22 +8,22 @@
 import SwiftUI
 
 @main
-//struct Ambi_LearningsApp: App {
-//    //@StateObject var VM = CombineModel()
-//    var body: some Scene {
-//        WindowGroup {
-//            CombineView()
-//                //.environmentObject(VM)
-//        }
-//    }
-//}
-
 struct Ambi_LearningsApp: App {
-    @StateObject var VM = EnvironmentViewModel()
+    //@StateObject var VM = CombineModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(VM)
+            CombineView()
+                //.environmentObject(VM)
         }
     }
 }
+
+//struct Ambi_LearningsApp: App {
+//    @StateObject var VM = EnvironmentViewModel()
+//    var body: some Scene {
+//        WindowGroup {
+//            ContentView()
+//                .environmentObject(VM)
+//        }
+//    }
+//}
